@@ -1,0 +1,6 @@
+version: '2'
+services:
+  powerfull_container:
+    image: "node-docker-prod"
+    ports:
+      - "8082:8082"
